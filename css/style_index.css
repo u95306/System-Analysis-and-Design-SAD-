@@ -1,0 +1,210 @@
+header{
+	font-family:Times New Roman,DFKai-sb;
+}
+.table{
+	font-family:Times New Roman,DFKai-sb;
+	font-size: 3vmin;
+}	
+body{
+	font-family:Times New Roman,DFKai-sb;
+	font-size: 3vmin;
+}
+h1{
+	margin-top:20px;
+	margin-left:10px;
+	font-size: 6vmin;
+	color:#FFFFFF;
+}
+h4{
+	margin-top:20px;
+	margin-left:10px;
+	font-size: 2vmin;
+	color:#FFFFFF;
+}
+.navbar-nav li a{
+	font-family:Times New Roman,DFKai-sb;
+	font-size: 24px;
+}
+.navbar-center {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar-collapse-center {
+  text-align: center;
+}
+.mr-auto{
+	margin-right:auto;
+}
+.dropdown-menu li:hover .sub-menu{
+	visibility: visible;
+}
+.dropdown:hover .dropdown-menu {
+	display: block;
+}
+#menu ul li:hover ul li ul {
+ /* 顯示第二層時，隱藏第三層，避免同時彈出 */
+ visibility:hidden;
+}
+#menu ul li ul li:hover ul {
+ /* 觸動第二層時，顯示第三層 */
+ visibility:visible;
+}
+.flex{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size: 20px;
+}
+.flex2{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size: 4vmin;
+}
+.page{
+	font-size: 18px;
+}
+.navbar-fixed-bottom{
+	/*position:fixed;*/
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color:#353a40;
+	opacity:0.8;
+	width:100%;
+	color:#fff;
+	font-size:12px;
+}
+.textarea{
+	font-size:2vmin;
+}
+.navbar-fixed-top{
+	position:fixed;
+	right: 0;
+	top: 0;
+	left: 0;
+	width:100%;
+}
+.wrapper {
+	position:fixed;
+	left: 0;
+	bottom: 40;
+	dusplay:flex;
+	flex-wrap: wrap;
+}
+/* top按鈕 */
+/* 40px */
+.toTop-arrow {
+	width: 2.5rem;
+	height: 2.5rem;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	border-radius: 33%;
+	opacity: 0.8;
+	background: #000;
+	cursor: pointer;
+	position:fixed;
+	right: 1rem;
+	bottom: 1rem;
+	display: none;
+}
+.toTop-arrow::before, .toTop-arrow::after {
+	width: 18px;
+	height: 5px;
+	border-radius: 3px;
+	background: #f90;
+	position: absolute;
+	content: "";
+}
+.toTop-arrow::before {
+	transform: rotate(-45deg) translate(0, -50%);
+	left: 0.5rem;
+}
+.toTop-arrow::after {
+	transform: rotate(45deg) translate(0, -50%);
+	right: 0.5rem;
+}
+.toTop-arrow:focus {outline: none;}
+ 
+ 
+/* 48px */
+.toTop-arrow {
+	width: 3rem;
+	height: 3rem;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	border-radius: 33%;
+	opacity: 0.6;
+	background: #000;
+	cursor: pointer;
+	position:fixed;
+	right: 1rem;
+	bottom: 1rem;
+	display: none;
+}
+.toTop-arrow::before, .toTop-arrow::after {
+	width: 25px;
+	height: 6px;
+	border-radius: 3px;
+	background: #f90;
+	position: absolute;
+	content: "";
+}
+.toTop-arrow::before {
+	transform: rotate(-45deg) translate(0, -50%);
+	left: 0.42rem;
+}
+.toTop-arrow::after {
+	transform: rotate(45deg) translate(0, -50%);
+	right: 0.42rem;
+}
+.toTop-arrow:focus {outline: none;}
+ 
+/* 56px */
+.toTop-arrow {
+	width: 3.5rem;
+	height: 3.5rem;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	border-radius: 33%;
+	opacity: 0.6;
+	background: #000;
+	cursor: pointer;
+	position:fixed;
+	right: 1rem;
+	bottom: 1rem;
+	display: none;
+}
+.toTop-arrow::before, .toTop-arrow::after {
+	width: 31px;
+	height: 7px;
+	border-radius: 3px;
+	background: #f90;
+	position: absolute;
+	content: "";
+}
+.toTop-arrow::before {
+	transform: rotate(-45deg) translate(0, -50%);
+	left: 0.4rem;
+}
+.toTop-arrow::after {
+	transform: rotate(45deg) translate(0, -50%);
+	right: 0.4rem;
+}
+.toTop-arrow:focus {outline: none;}
+
+#picture{
+	font-size:16px;
+	color:#000000;
+}
+#goods{
+	height:;
+}
+#title1{
+	font-size:16px;
+}

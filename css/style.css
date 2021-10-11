@@ -1,0 +1,66 @@
+body {
+	background-image:url('https://cdn.hk01.com/di/media/images/283777/org/9f552ff93dd099bcc0eb737192d18b25.png/AZdm2gsayZ039au0qEv3mtig5tJar6SavTrKYb06ymE?v=w1920');
+	background-repeat:no-repeat;
+	background-size:cover;
+	font-family:Times New Roman,DFKai-sb;
+	font-size:4vmin;
+}
+container-fluid {
+	margin-top:50px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-left:15px;
+	padding-right:15px;
+	width:100%;
+}
+h1{
+	font-size: 6vmin;
+	font-family:Times New Roman,DFKai-sb;
+	margin-top:20px;
+	margin-left:10px;
+	color:#FFFFFF;
+}
+h3{
+	font-size: 5vmin;
+	font-family:Times New Roman,DFKai-sb;
+	padding:5px;
+	border-bottom:1px solid #ddd; /*h3字型下邊框*/
+	color:#FFFFFF;
+}
+li{
+	list-style-type:square; /*列表項圖示為小正方形*/
+	margin:10px 0; /*上下外邊距是10px*/
+	color:#FFFFFF;
+}
+em{ /*強調的樣式*/
+	color:#c7254e;
+	font-style: inherit;
+	background-color: #f9f2f4;
+}
+h4{
+	font-size: 3vmin;
+	font-family:Times New Roman,DFKai-sb;
+	position:relative;
+	padding-left:40px;
+	padding-top:100px;
+	color:#FFFFFF;
+}
+.text{
+	font-family:DFKai-sb;
+	font-size: 5vmin;
+	padding-left:20px;
+	padding-top:20px;
+}
+form{
+	padding-top:0;
+	background:rgba(255,255,255,0.6);
+}
+.form-group{
+	padding-left:20px; 
+	padding-right:20px;
+}
+.btn{
+	font-size: 3vmin;
+}
+
+	
